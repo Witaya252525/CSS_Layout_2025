@@ -21,14 +21,23 @@
 print(" Check Height for Roaroller ")
 height = int(input("Please in put height == "))
 if height >= 120 :
+    bill = 0 
     print(" you can right roller crosster")
     age = int(input("please in put your age ++ "))
     if age < 12 :
-        print("Please pay = 12")
+        bill = 8 
+        print("Please pay = 8")
     elif age <=18:
-        print("Please pay = 128")
+        bill = 28 
+        print("Please pay = 28")
     else:
-        print("Please pay = 200")
+        bill = 88 
+        print("Please pay = 88")
 
+    Need_Pic =(input("Do you want Photo Y or N   "))
+    if Need_Pic =="Y":
+        bill+= 3
+        print(f"You total bill is {bill}")
+    
 else:
-    print(" You can not ride Roller couster")
+    print(" Sirry You can not ride Roller couster")
