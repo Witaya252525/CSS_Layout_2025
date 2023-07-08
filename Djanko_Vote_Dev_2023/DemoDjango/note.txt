@@ -1,0 +1,58 @@
+This project id run on LENOVO
+
+update python === python -m pip install --upgrade pip
+pip install virtualenv
+no need cd //  virtual -p python yourproject  // this will create cpython environment
+next is activate your project .....
+Cd your projectname  .\Scripts\activete ...Enter
+Then pip list
+pip install on folder that your just activate
+python -m django --version
+django-admin startproject witayaproject store .
+then dir it will see mamage.py on folder
+....Then python manage.py runserver
+ 
+
+
+
+2.1.C:\Users\339073\OneDrive\WEBDEVELOP2023\Djanko_Vote_Dev>python -m venv tutorial-env
+2. C:\Users\339073\OneDrive\WEBDEVELOP2023\Djanko_Vote_Dev>tutorial-env\Scripts\activate.bat
+
+3. (tutorial-env) C:\Users\339073\OneDrive\WEBDEVELOP2023\Djanko_Vote_Dev>python -m pip list
+Package    Version
+---------- -------
+pip        22.0.4
+setuptools 58.1.0
+WARNING: You are using pip version 22.0.4; however, version 23.1.2 is available.
+You should consider upgrading via the 'C:\Users\339073\OneDrive\WEBDEVELOP2023\Djanko_Vote_Dev\tutorial-env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+pip install django
+
+Django-admin
+
+4  Cd >> DemoDjango\mysite
+
+
+python -m django --version
+
+5. pyhton manage.py runserver
+
+6.http://127.0.0.1:8000/
+
+
+
+https://docs.djangoproject.com/en/4.2/
+http://127.0.0.1:8000/polls/
+http://127.0.0.1:8000/admin/login/?next=/admin/
+>>Login gits
+(tutorial-env) PS C:\Users\339073\OneDrive\WEBDEVELOP2023\Djanko_Vote_Dev> git config --global user.name "Witaya252525"
+(tutorial-env) PS C:\Users\339073\OneDrive\WEBDEVELOP2023\Djanko_Vote_Dev> git config --global user.email "witaya.c@kkumail.com"
+
+
+
+login database :admin /339073
+oldone is witaya/3339073
+
+...........................................................................................
+Class Meta 
+link ==>> https://blog.devgenius.io/class-meta-django-models-9b9ca84d72eb
