@@ -1,3 +1,4 @@
+# Django_Profile_July23
 Install Python ( Where) add to path
 check python active ==> Typing idle will lead to python shell   / if typing python is black color
 https://pypi.org/search/?q=django
@@ -32,6 +33,26 @@ App Home
 (venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya>python manage.py startapp home
 
 (venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
 
-https://www.youtube.com/watch?v=rRVWQCpZ_CI&t=12360s
+System check identified no issues (0 silenced).
 
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 07, 2023 - 06:15:39
+Django version 4.2.3, using settings 'who_witaya.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+...........................................................................................................................................................
+(venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya>python manage.py migrate
+
+(venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya> python manage.py createsuperuser
+Username (leave blank to use 'lenovo'): admin
+Email address: witayachai@gmail.com
+Password:  12345678
+Password (again):
+This password is too common.
+This password is entirely numeric.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
