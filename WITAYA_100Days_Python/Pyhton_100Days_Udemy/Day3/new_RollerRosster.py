@@ -15,5 +15,9 @@ if height >= 120:
         print(f' Child ticket are  $7')
     else:
         print(f' Adult ticket is  $12')
+
+
+
+        
 else:
     print("You can play Rollenot rcoaster 😢😢")
