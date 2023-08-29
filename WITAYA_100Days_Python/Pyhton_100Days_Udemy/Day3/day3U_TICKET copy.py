@@ -40,4 +40,4 @@ if height >= 120 :
         print(f"You total bill is {bill}")
     
 else:
-    print(" Sirry You can not ride Roller couster")
+    print(" Sorry You can not ride Roller couster")
