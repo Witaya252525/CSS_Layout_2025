@@ -1,0 +1,12 @@
+.append()
+list
+.split()
+index out of length
+len()
+random.choice()
+.count()
+.lower()
+short if
+nested if
+nested list
+list.extend()
