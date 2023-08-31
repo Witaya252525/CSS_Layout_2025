@@ -10,3 +10,5 @@ short if
 nested if
 nested list
 list.extend()
+random.choice()
+print(f"{row1}\n{row2}\n{row3}")
