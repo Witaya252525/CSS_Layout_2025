@@ -9,13 +9,16 @@ colorama.init()
 print(Fore.RED+Back.BLACK)
 
 for number in range (1 ,11,3):
-    print(number)                                                  
+    print(number)
+    print("close this project")
+
 
 
 
 total = 0
-for i in range (1 ,101):
+for i in range (1 ,30):
     total += i
     print(i)
+    print(total)
 
-print(total)
+print(f'The total number is {total}')
