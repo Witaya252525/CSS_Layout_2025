@@ -27,6 +27,20 @@
 # print('living in amazing')
 # print(city)
 
+print("Witaya Chaison")
+print("September 20, 2023")
+
+print("""I am signing up for Replit's 100 days of Python challenge!
+I will make sure to spend some time every day coding along, for a minimum of 10 minutes a day.
+I'll be using Replit, an amazing online IDE so I can do this from my phone wherever I happen to be. No excuses for not coding from the middle of a field!""")
+print("I am feeling 🥳")
+
+print("You can follow my progress at replit.com/IamMarkProbably")
+
+
+
+
+
 
 food = input("Input name of food you like ") 
 plant = input("Input name of plant you like ")
@@ -37,6 +51,11 @@ DIY = input("Input name of DIY you like ")
 print("MENU")
 print(f"{cook}{food} with {burn} {plant} on a bed of  ")
 print(DIY)
+print('''               
+      witaya
+      Chaison
+                
+                                         ''')
 
 
 
